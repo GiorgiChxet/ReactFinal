@@ -15,7 +15,7 @@ const Header = () => {
         <img src="https://btu.edu.ge/wp-content/uploads/2021/11/BTU-GEO.png" />
         <nav>
           <ul>
-            <li><Link to="/">Home</Link></li>
+            <li><Link to="/home">Home</Link></li>
             <li><Link to="/about">About</Link></li>
             <li><Link to="/contact">Contact</Link></li>
           </ul>
