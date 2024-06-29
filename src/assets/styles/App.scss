@@ -1,0 +1,41 @@
+@import "header";
+@import "footer";
+@import "home";
+@import "about";
+@import "contact";
+
+body.light {
+  background: #fff;
+  color: #000;
+}
+
+body.dark {
+  background: #1e1e1e;
+  color: #fff;
+
+  .aboutUs .container p {
+    color: #fff;
+  }
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  width: 80%;
+}
+
+@media (max-width: 768px) {
+  header ul {
+    flex-direction: column;
+  }
+
+  header ul li {
+    margin: 0.5rem 0;
+  }
+}

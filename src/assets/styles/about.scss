@@ -1,0 +1,73 @@
+.about {
+  padding: 2rem;
+  background-image: url(https://btu.edu.ge/wp-content/uploads/2021/03/about.jpg);
+  background-repeat: no-repeat;
+  height: 200px;
+  background-position-y: -350px;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+  .container {
+    z-index: 1;
+    display: flex;
+    align-items: center;
+
+    h1 {
+      text-transform: uppercase;
+      border-left: 3px solid #e52a7f;
+      padding: 0 0 0 20px;
+      color: #fff;
+    }
+  }
+}
+
+.aboutUs {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+    h3 {
+      color: #ef027e;
+    }
+
+    p {
+      color: #7A7A7A;
+    }
+
+    .team {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      margin-top: 50px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 30px;
+
+      .teammate{
+        .userImage{
+          img{
+            width: 30%;
+          }
+        }
+      }
+    }
+  }
+}

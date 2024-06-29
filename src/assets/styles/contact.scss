@@ -1,0 +1,61 @@
+.contact {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+
+    div {
+      margin-bottom: 1rem;
+
+      label {
+        margin-bottom: 0.5rem;
+        display: block;
+      }
+
+      input {
+        width: 100%;
+        padding: 0.5rem;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        resize: none;
+        outline: none;
+
+      }
+
+      textarea {
+        width: 100%;
+        height: 70px;
+        padding: 0.5rem;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        resize: none;
+        outline: none;
+      }
+
+      p {
+        color: red;
+        margin: 0;
+      }
+    }
+
+    button {
+      padding: 0.5rem 1rem;
+      border: none;
+      background: #333;
+      color: #fff;
+      border-radius: 4px;
+      cursor: pointer;
+      width: max-content;
+      transition: .2s ease-in-out;
+
+      &:hover {
+        background: #e52a7f;
+      }
+    }
+  }
+}
